@@ -1,4 +1,4 @@
-# SmartChauraha — Smart Traffic Signal Management System
+# SmartChauraha — Adaptive Traffic Signal Management System
 
 A full-stack interactive simulation of an AI-optimised 4-way traffic intersection.
 
