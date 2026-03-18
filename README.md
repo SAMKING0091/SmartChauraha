@@ -37,37 +37,37 @@ Open `traffic_frontend.html` in any modern browser (Chrome / Firefox / Edge).
 
 ## Features
 
-### 🚦 Intersection Simulation
+### Intersection Simulation
 - Live 4-way intersection with animated signal lights (R/Y/G)
 - Vehicle dot visualisation per lane — density drives animation
 - Countdown timer ring on the junction centre
 
-### 🤖 AI Signal Logic
+### AI Signal Logic
 - Rule-based: green time = f(density, time-of-day)
 - Priority routing: lane with highest density gets next green
 - Conflict-safe: only one green direction active at any time
 
-### 🚨 Emergency Override
+### Emergency Override
 - Select a lane and click "Activate Emergency"
 - Immediately forces that direction green, pauses normal cycle
 - Click "Clear Emergency" to resume auto mode
 
-### 👮 Manual / Police Override
+### Manual / Police Override
 - Switch to MANUAL mode, then click any direction button
 - Frontend shows officer-override badge; AI resumes on AUTO
 
-### 🌅 Time-of-Day Modes
+### Time-of-Day Modes
 - **PEAK**: green timings ×1.3 (busy rush hours)
 - **NORMAL**: standard timings
 - **NIGHT**: green timings ×0.7 (low traffic)
 
-### 📊 Dashboard
+### Dashboard
 - Signal status per lane with colour-coded badges
 - Real-time density progress bars
 - 30-second sparkline trend charts per direction
 - System metrics: phase, timer, vehicle queue counts
 
-### 🎚 Density Sliders
+### Density Sliders
 - Manually override lane density from the left panel
 - AI reacts immediately to changes
 
